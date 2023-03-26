@@ -1,0 +1,41 @@
+/* Set the background color */
+body {
+	background-color: #f2f2f2;
+}
+
+/* Style the banner */
+.banner {
+	background-image: url('https://source.unsplash.com/random/1600x900');
+	background-size: cover;
+	color: #fff;
+	text-align: center;
+	padding: 200px 0;
+}
+
+.banner h1 {
+	font-size: 4em;
+	margin-bottom: 20px;
+}
+
+.banner p {
+	font-size: 2em;
+	margin-bottom: 0;
+}
+
+/* Style the navigation bar */
+.navbar {
+	margin-bottom: 20px;
+}
+
+/* Style the main content */
+.main-content {
+	padding: 50px 0;
+}
+
+/* Style the footer */
+.footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px 0;
+	text-align: center;
+}
