@@ -19,10 +19,10 @@ form.addEventListener("submit", (event) => {
     ],
   };
 
-  fetch("https://api.airtable.com/v0/process.env.AIRTABLE_BASE_ID/Responses", {
+  fetch("https://api.airtable.com/v0/vars.AIRTABLE_BASE_ID/Responses", {
     method: "POST",
     headers: {
-      Authorization: "Bearer process.env.AIRTABLE_API_KEY",
+      Authorization: "Bearer vars.AIRTABLE_API_KEY",
       "Content-Type": "application/json",
     },
     body: JSON.stringify(data),
